@@ -4,6 +4,7 @@ import httpx
 import pandas as pd
 import os
 import sys
+import warnings
 
 API_URL = "https://ai360.dev.mareana.com/v1/ai-360/genealogy/query"
 
