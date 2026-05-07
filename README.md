@@ -70,15 +70,15 @@ These diagrams visualize the current pipeline and data flow.
 
 ### Full flowchart
 
-![Full flowchart](genealogy_pipeline_flowchart.svg)
+![Full flowchart](images/genealogy_pipeline_flowchart.svg)
 
 ### Component breakdown
 
-![Component breakdown](genealogy_component_structure.svg)
+![Component breakdown](images/genealogy_component_structure.svg)
 
 ### Data flow view
 
-![Data flow view](genealogy_data_flow.svg)
+![Data flow view](images/genealogy_data_flow.svg)
 
 ## How to use it
 
