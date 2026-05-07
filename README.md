@@ -64,6 +64,22 @@ The pipeline now has two stages:
    - appends evaluation sheets to `output/genealogy_results.xlsx`
    - writes summary metrics and confusion matrix
 
+## Pipeline diagrams
+
+These diagrams visualize the current pipeline and data flow.
+
+### Full flowchart
+
+![Full flowchart](genealogy_pipeline_flowchart.svg)
+
+### Component breakdown
+
+![Component breakdown](genealogy_component_structure.svg)
+
+### Data flow view
+
+![Data flow view](genealogy_data_flow.svg)
+
 ## How to use it
 
 ### Run the full pipeline locally
