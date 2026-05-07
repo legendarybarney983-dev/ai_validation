@@ -1,0 +1,26 @@
+[
+    {
+        "id": "GQ-01",
+        "ground_truth": "MATCH (b:Batch {mat_no: '8004031'}) RETURN b LIMIT 100"
+    },
+    {
+        "id": "GQ-02",
+        "ground_truth": "MATCH (b:Batch {mat_no: '8004031'}) RETURN b LIMIT 5"
+    },
+    {
+        "id": "GQ-03",
+        "ground_truth": "MATCH (b:Batch {plant: '1052'}) RETURN b LIMIT 100"
+    },
+    {
+        "id": "GQ-04",
+        "ground_truth": "MATCH (b:Batch {plant: '1052'}) RETURN b LIMIT 1"
+    },
+    {
+        "id": "GQ-05",
+        "ground_truth": "MATCH (b:Batch)-[:Input]->(po:ProcessOrder {po_no: 'PO12345'}) RETURN b LIMIT 10"
+    },
+    {
+        "id": "GQ-06",
+        "ground_truth": "MATCH (b:Batch)-[r:Input]->(po:ProcessOrder {po_no: 'PO12345'}) RETURN b.batch_no, r.qty, r.unit LIMIT 100"
+    }
+]
